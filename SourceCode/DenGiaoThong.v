@@ -37,7 +37,7 @@ FreqDivision T1a
 .rst(rst),
 .clockOut(clock1Hz)
 );
-defparam T1a.SCALE = 10;
+defparam T1a.SCALE = 10; // Trong thuc te, dat SCALE = 50 000 000
 
 FreqDivision T1b
 (
@@ -45,7 +45,7 @@ FreqDivision T1b
 .rst(rst),
 .clockOut(clock1KHz)
 );
-defparam T1b.SCALE = 2;
+defparam T1b.SCALE = 2; // Trong thuc te, dat SCALE = 50 000
 
 Control T2
 (
